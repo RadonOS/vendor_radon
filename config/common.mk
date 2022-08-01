@@ -1,7 +1,7 @@
 # Branding
-$(call inherit-product, vendor/radon/config/branding.mk)
+$(call inherit-product, vendor/radon/config/versioning.mk)
 
-PRODUCT_BRAND ?= PixelExperience
+PRODUCT_BRAND ?= RadonOS
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
