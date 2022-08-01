@@ -204,9 +204,6 @@ $(call inherit-product, vendor/radon/config/bootanimation.mk)
 # Fonts
 $(call inherit-product, vendor/radon/config/fonts.mk)
 
-# GApps
-$(call inherit-product, vendor/gapps/config.mk)
-
 # OTA
 $(call inherit-product, vendor/radon/config/ota.mk)
 
