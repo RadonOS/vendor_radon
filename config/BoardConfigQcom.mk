@@ -169,3 +169,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/qcom/opensource/commonsys/system/bt/conf \
     vendor/qcom/opensource/commonsys/system/bt/main
 endif #TARGET_USE_QTI_BT_STACK
+
+# Add bluetooth to PRODUCT_SOONG_NAMESPACES
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom/$(QCOM_HARDWARE_VARIANT) \
+    packages/apps/Bluetooth
